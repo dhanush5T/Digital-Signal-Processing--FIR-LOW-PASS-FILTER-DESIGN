@@ -44,4 +44,5 @@ plot(w/pi,abs(h),'blue');
 ![WhatsApp Image 2025-11-28 at 20 46 29_b5f01a7b](https://github.com/user-attachments/assets/671126ee-c0ad-4ba3-8cbc-64036474ae0b)
 
 ## RESULT:
-![WhatsApp Image 2025-11-28 at 20 48 24_fd0daf36](https://github.com/user-attachments/assets/2ff0fb72-c20c-4a76-8b9f-1c85fede87e0)
+![WhatsApp Image 2025-11-28 at 20 49 38_1115171f](https://github.com/user-attachments/assets/e9dec861-1dd1-49ea-b97c-6174e3dd95f6)
+
