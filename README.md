@@ -23,27 +23,29 @@ Step 6: Terminate the program.
 clc; % clear screen
  clear all; % clear screen
  close all; % close all figure windows
-wc=input('enter the value of cut off frequency'); 
-N=input('enter the value of filter'); 
+wc=input('enter the value of Wc='); 
+N=input('enter the value of N=');
 alpha=(N-1)/2; 
 eps=0.001; 
-%High Pass Filter Coefficient
+%Low Pass Filter Coefficient
 n=0:1:N-1; 
-hd=(sin(pi*(n-alpha+eps))-sin((n-alpha+eps)wc))./(pi(n-alpha+eps))
-%Hamming Window Sequence 
+hd=sin(wc*(n-alpha+eps))./(pi*(n-alpha+eps))
+%Blackman Window Sequence 
 n=0:1:N-1; 
-wh=0.54-0.46*cos((2*pi*n)/(N-1))
+wh=0.42-0.5*cos((2*pi*n)/(N-1))-0.08*cos((4*pi*n)/(N-1))
 hn=hd.*wh 
-% Plot the High Pass Filter with Hamming Window Technique
+% Plot the Band Pass Filter with Blackman Window Technique
 w=0:0.01:pi; 
 h=freqz(hn,1,w);
 plot(w/pi,abs(h),'blue');
 ```
 
 ## OUTPUT:
-![WhatsApp Image 2025-11-17 at 12 25 41_605e5f47](https://github.com/user-attachments/assets/30730291-52f1-4a38-88f5-8fd49976a6e5)
+![WhatsApp Image 2025-11-28 at 20 46 29_b5f01a7b](https://github.com/user-attachments/assets/671126ee-c0ad-4ba3-8cbc-64036474ae0b)
+
 
 
 ## RESULT:
-![WhatsApp Image 2025-11-28 at 20 40 54_2d70e3f9](https://github.com/user-attachments/assets/73a270d2-c1be-481f-bc63-594c4fff31a4)
+![WhatsApp Image 2025-11-28 at 20 36 01_2f51d0d3](https://github.com/user-attachments/assets/1434b756-cf1d-4e1f-8aca-87ad979106b6)
+
 
