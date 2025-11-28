@@ -41,8 +41,9 @@ plot(w/pi,abs(h),'blue');
 ```
 
 ## OUTPUT:
-![WhatsApp Image 2025-11-28 at 20 46 29_b5f01a7b](https://github.com/user-attachments/assets/671126ee-c0ad-4ba3-8cbc-64036474ae0b)
+![WhatsApp Image 2025-11-28 at 20 49 38_1115171f](https://github.com/user-attachments/assets/e9dec861-1dd1-49ea-b97c-6174e3dd95f6)
 
 ## RESULT:
-![WhatsApp Image 2025-11-28 at 20 49 38_1115171f](https://github.com/user-attachments/assets/e9dec861-1dd1-49ea-b97c-6174e3dd95f6)
+<img width="1600" height="594" alt="image" src="https://github.com/user-attachments/assets/39dbc489-785a-4bae-84cc-c5183bb887c7" />
+
 
